@@ -1,8 +1,4 @@
-def madlib(one, two, three, four, five, six, seven, eight, nine, ten):
-    
-    print("Star Wars is a" + one + two + "of" + three + "versus evil in a" + four + "far far away" + "There are" + five + "battles between" + six + seven + "in" + eight + "space and" + nine + "duels with" + ten + "called")
+def madlib(a, b, c, d, e, f, g, h, i, j):
+    print("Star wars is a" + a + b + "of" + c + "versus evil in a" + d + "far far away")
 
-
-
-    
-    
+madlib("cool", "movies" )
