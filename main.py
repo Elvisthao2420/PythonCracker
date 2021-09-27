@@ -1,4 +1,12 @@
-def madlib(a, b, c, d, e, f, g, h, i, j):
-    print("Star wars is a" + a + b + "of" + c + "versus evil in a" + d + "far far away")
+def greaterThan10(x):
+    if x > 10:
+        return "x is greater than 10"
 
-madlib("cool", "movies" )
+    elif x == 10:
+        return "x equals 10"
+
+    else:
+        return "x is not greater than 10"
+
+print(greaterThan10(69))
+
