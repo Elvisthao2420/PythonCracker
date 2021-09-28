@@ -1,12 +1,35 @@
-def greaterThan10(x):
-    if x > 10:
-        return "x is greater than 10"
+def define(word):
 
-    elif x == 10:
-        return "x equals 10"
+    word = word.lower()
 
-    else:
-        return "x is not greater than 10"
+    if word == "word":
+        return "Outcome of combined characters"
+    
+    elif word == "rich":
+        return "Being of wealth"
 
-print(greaterThan10(69))
+    elif word == "bacon":
+        return "Pig"
 
+    elif word == "close":
+        return "Opposite of open"
+    
+    elif word == "big":
+        return "Not small"
+
+    elif word == "gone":
+        return "Not there"
+
+    elif word == "half":
+        return "not whole"
+
+    elif word == "equals":
+        return "outcome"
+
+    elif word == "matrix":
+        return "I dont even know"
+
+    elif word == "color":
+        return "Reflection of light"
+
+print(define("Word"))
