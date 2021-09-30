@@ -1,42 +1,13 @@
-def define(word):
+def function():
 
-    word = word.lower()
+    count = 1
+    potato = 1
 
-    if word == "word":
-        return "Outcome of combined characters"
-    
-    elif word == "rich":
-        return "Being of wealth"
+    while potato < 10:
+        while count <= 10:
+            print(count)
+            count = count + 1
+        potato = potato + 1
+        count = 1
 
-    elif word == "bacon":
-        return "Pig"
-
-    elif word == "close":
-        return "Opposite of open"
-    
-    elif word == "big":
-        return "Not small"
-
-    elif word == "gone":
-        return "Not there"
-
-    elif word == "half":
-        return "not whole"
-
-    elif word == "equals":
-        return "outcome"
-
-    elif word == "matrix":
-        return "I dont even know"
-
-    elif word == "color":
-        return "Reflection of light"
-
-print(define("Word"))
-
-def function(x, y, z):
-    if x >10 or not y > 10 and z == 5:
-        return True
-    else:
-        return False
-
+function()
