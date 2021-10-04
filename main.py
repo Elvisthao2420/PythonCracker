@@ -1,14 +1,11 @@
+for i in range(1, 11):
+    print(i)
 
-def spellingBee(w):
-    
-    x = 0
+i = 1
 
-    while x < len(w):
-            print(w[x])
-            x = x + 1
-
-spellingBee("Crocodile")
-
+while 1 < 11:
+    print(i)
+    i = i+ 1
 
 
 
